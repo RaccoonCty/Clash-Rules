@@ -1,7 +1,8 @@
 # > Playstation
-- DOMAIN-SUFFIX,dl.playstation.net,DIRECT
-- DOMAIN-SUFFIX,image.api.playstation.com,DIRECT
-- DOMAIN-SUFFIX,sonyentertainmentnetwork.com,PlayStation
-- DOMAIN-SUFFIX,account.sony.com,PlayStation
-- DOMAIN-SUFFIX,playstation.net,PlayStation
-- DOMAIN-SUFFIX,playstation.com,PlayStation
+  - DOMAIN-SUFFIX,dl.playstation.net,🎯 全球直连
+  - DOMAIN-SUFFIX,image.api.playstation.com,🎯 全球直连
+  - DOMAIN-SUFFIX,stun.playstation.net,🎯 全球直连
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,account.sony.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
