@@ -1,8 +1,18 @@
-# > Playstation
+# --- PS5 下载与测速（直连） ---
   - DOMAIN-SUFFIX,dl.playstation.net,🎯 全球直连
-  - DOMAIN-SUFFIX,image.api.playstation.com,🎯 全球直连
+  - DOMAIN-SUFFIX,update.playstation.net,🎯 全球直连
+  - DOMAIN-SUFFIX,download.playstation.net,🎯 全球直连
+  - DOMAIN-SUFFIX,lv.playstation.net,🎯 全球直连
+  - DOMAIN-SUFFIX,ac.playstation.net,🎯 全球直连
   - DOMAIN-SUFFIX,stun.playstation.net,🎯 全球直连
-  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+# 测速通常通过 prod 服务器，直连可获得更准确的本地速度
+  - DOMAIN-SUFFIX,prod.playstation.net,🎯 全球直连
+# --- PlayStation 登录、商店及联机（代理） ---
   - DOMAIN-SUFFIX,account.sony.com,🎮 游戏平台
-  - DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
   - DOMAIN-SUFFIX,playstation.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstation.net,🎮 游戏平台
+  - DOMAIN-SUFFIX,playstationnetwork.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮 游戏平台
+  - DOMAIN-SUFFIX,scea.com,🎮 游戏平台
+  - DOMAIN-KEYWORD,playstation,🎮 游戏平台
+# >>>>>>>>>>>>>>
