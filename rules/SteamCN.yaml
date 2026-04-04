@@ -1,0 +1,11 @@
+  # --- Steam 下载与商店（直连） ---
+  # 商店主站与静态资源（国内直连通常更顺畅）
+  - DOMAIN-SUFFIX,steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamstatic.com,🎯 全球直连
+  - DOMAIN,steamcdn-a.akamaihd.net,🎯 全球直连
+  # 核心下载域名（CDN 走国内节点可满速）
+  - DOMAIN-SUFFIX,steamserver.net,🎯 全球直连
+  - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
+  - DOMAIN-SUFFIX,steamuserimages-a.akamaihd.net,🎯 全球直连
+  - DOMAIN-KEYWORD,steambroadcast,🎯 全球直连
