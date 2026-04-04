@@ -1,0 +1,21 @@
+  # --- PS5 下载与测速（直连） ---
+  # 匹配 PlayStation 下载服务器和 CDN
+DOMAIN-SUFFIX,dl.playstation.net
+DOMAIN-SUFFIX,update.playstation.net
+DOMAIN-SUFFIX,download.playstation.net
+DOMAIN-SUFFIX,lv.playstation.net
+DOMAIN-SUFFIX,ac.playstation.net
+DOMAIN-SUFFIX,stun.playstation.net
+DOMAIN-KEYWORD,post.khub.sony.com
+  # 测速通常通过 prod 服务器，直连可获得更准确的本地速度
+DOMAIN-SUFFIX,prod.playstation.net
+  # 奖杯同步及其他
+DOMAIN-SUFFIX,psnprofiles.com
+  # --- PlayStation 登录、商店及联机（代理） ---
+  # 这些规则必须放在上面的下载规则之后
+DOMAIN-SUFFIX,playstation.com
+DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+DOMAIN-SUFFIX,scea.com
+DOMAIN-KEYWORD,playstation
