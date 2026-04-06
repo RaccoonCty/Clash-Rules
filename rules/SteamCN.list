@@ -1,6 +1,5 @@
   # --- Steam 下载与商店（直连） ---
   # 商店主站与静态资源（国内直连通常更顺畅）
-DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN,steamcdn-a.akamaihd.net
