@@ -1,0 +1,325 @@
+proxies:
+  - {name: 🇺🇸 洛杉矶CDN-Argo, server: saas.sin.fan, port: 443, type: vless, uuid: 1c0c1878-a687-4543-9be9-016248721cd1, tls: true, tfo: true, flow: xtls-rprx-vision, encryption: mlkem768x25519plus.native.0rtt.N8XFTMGDkoFNwqpsA6OYVDB-WIsRyXKYqtGSG8Y4Mcs3M8NBFZUQSbm0_akSOPmsYVppd7DCBzJ1PSqm2fhh3vRivzPAvJHBOEZAPrJBssPAPbZuoiaN2iarD_sorcNfSUYx0mgkSrY4TzsRpWS9qEBRLlamwMOtmxBiIPsqNhy_D0cO6FaJT6dxYsgqnkChCOqetALQJpM9YLlJheqqfHIVBmoIQ1mdcCYGbxtBNAdziJIeVBOe2xyWCPlut5sc3iK1vLOOwjypYLWAv7dl7uV3duuttxSVQ2nA3lYyZPSrT1ImWPxHboxq1CZOmGXA5qO_EASe0Fpumvd3QqNck8qXZ7rL9MhZLAAiC4p5auuwimRGdvmLXDU6F6ua2AK9sIWaXKSpfft-50WmylVSH0iVJ_ILvtArj-uFw0KDLOAXMUZBaGdlsABbcjADUZdh1XxzNAysgcoZNkxr_8UOsZoz3eZNEERZbZYAPlYrorzJ31oEDvGHfMqoQYxu2aLNBQFpTryNvGgHEIgwjTgVIpxOg-rAaEW3SWQ4xRe0ItM2VplY1EaBQoGXAGkHB3hlFZGcnll4LzO9LJMzeTU_AJJ-gnSMmFa-i_e2n6Qk4oGX1gRfB5Bk-WF-vWEyL0MABfIZnDUwcxEgj7MXENufhIJPg5ya1YNJevaCl6Aht9YlSmcwdNxvF2g3MtFHmQZEK5XAS-yUy6mRCdFI6JBACwRZUmafwJk4t-CB8Xi1Kho8GuS74ah2-KsV2gdVbeklSUQIdIUAKBkwk-AagTmJshod46RAdVWlkowi22Jf5vs3GoNr_UpYZrAHlXgos8JQBkMjqtGx_tqdBCyJdudIJYNFcqxN0sUQzWwStMUmwuah1zMhBsIrz5yM_5mRqvlqmIB9IUTD9aTIyapw-RaKRNxuMQQ7-JHNGAONvyqcxIZSGgAqHCuDjQe1QamZzJFbxTGj_YrPWUZwI7OSkkd0Zvtvg_Czcnk8KXybQbK9C8d8FSdbcGDJkFY5O5ugW6CSlqRw9iedmAUbB9Y0L1SKL3ALxxGvnRacUEZejlu5XVt0VXZqUiB9yDMNBwEy63JcdldVSTNzmnaPq-LDo0oxUYQSegwvNmO8fvsCwWR-07MyYjNT3DIlpNLHZIhwBSWIqFSBMvQAsRuaFtsY6tgbhncsiqVY74cG4QPDCTZ7-UpDpAIAKeZQkCq_qRUR7BqsyrATlCY2KlJS2Ql_COpJqMkDEVJ-trpgtPSz-UwEVjB3e3FV5YFvySdEMIE0Cbmyl3NYagJngal2yXYmOfgsU6A6XkOYn0e5UlWefYiD1tRdbRGmGPyJvhWB-dJ7dsGVNji0AjOKiyWChuoLushRPgx0kYO3rmQQCfRmwuCfAaJKQjR6d_Q3CDCbVFxv34UMI2imaIuyHwFtjTx1nBm5qFG3udZs0KNdP6pohrbInzkHkxMCAJSfBlEjNkS_2kGZH5w3ZIbInbh96oSzXYhHCQpjeyISlwSy8mJyBKhSgvtWJlVnB_IqodJiVvFBYBsxiHRqh_duaAFMR9E4Tbc-Ti4LMjcQmtHTUqn8wSutliE, skip-cert-verify: false, servername: rn.9597888.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: 1c0c1878-a687-4543-9be9-016248721cd1-vw, headers: {Host: rn.9597888.xyz}}, udp: true}
+  
+  - {name: 🇺🇸 洛杉矶CDN-xHTTP, server: saas.sin.fan, port: 8443, type: vless, uuid: 9243a4c3-36bc-49cd-bf7f-f5b6d55055be, tls: true, alpn: [h2%2Chttp%2F1.1], tfo: true, skip-cert-verify: false, servername: cdn.9597888.xyz, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /9243a4c3, host: cdn.9597888.xyz, mode: auto}, udp: true}
+  
+  - {name: 🇺🇸 洛杉矶CDN-WS, server: saas.sin.fan, port: 2083, type: vless, uuid: 31705523-fdd7-4077-995a-950373d8d050, tls: true, alpn: [h2%2Chttp%2F1.1], tfo: true, skip-cert-verify: false, servername: cdn.9597888.xyz, client-fingerprint: chrome, network: ws, ws-opts: {path: /31705523, headers: {Host: cdn.9597888.xyz}}, udp: true}
+  
+  - {name: 🇺🇸 洛杉矶Reality-TCP, server: 23.95.34.222, port: 443, type: vless, uuid: 4672207a-7486-44dd-915f-daef266a34ad, tls: true, tfo: true, flow: xtls-rprx-vision, skip-cert-verify: false, reality-opts: {public-key: UknZd_YqPpeQVhkTlP4BRAxll6rHwEjgPl6pj9YQK00, short-id: c4}, servername: www.tesla.com, client-fingerprint: chrome, network: tcp, udp: true}
+  
+  - {name: 🇺🇸 洛杉矶Reality-xHTTP, server: 23.95.34.222, port: 53939, type: vless, uuid: b0c564d0-76cd-4875-97c5-d992ad73b983, tls: true, tfo: true, skip-cert-verify: false, reality-opts: {public-key: R5Hi18tnBRJqFpXAubFIX4ZYHYMBLMPRQk9Ryp_sww4, short-id: cc2175}, servername: www.tesla.com, client-fingerprint: chrome, network: xhttp, xhttp-opts: {path: /, host: www.tesla.com, mode: auto}, udp: true}
+  
+  - {name: 🇺🇸 洛杉矶-233-HY2, server: 23.95.34.222, port: 51001, type: hysteria2, password: 175dd0cd-b4ee-40bc-a14a-ddc86fb6b8a8, auth: 175dd0cd-b4ee-40bc-a14a-ddc86fb6b8a8, skip-cert-verify: true, alpn: [h3], udp: true} 
+  
+  - name: "直连"
+    type: direct
+    udp: true
+
+# 全局配置 
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+ipv6: true
+unified-delay: true
+tcp-concurrent: true
+log-level: warning
+global-client-fingerprint: chrome
+keep-alive-idle: 600
+keep-alive-interval: 15
+profile:
+  store-selected: true
+  store-fake-ip: true
+
+# 为防止使用插件朋友遇到面板问题，我注释掉了此模块。
+#external-controller: 0.0.0.0:9090
+#secret: ""
+#external-ui: ui
+#external-ui-name: zashboard
+#external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
+
+# 嗅探（fakeip下其实可以不用嗅探）
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  skip-domain:
+    - "Mijia Cloud"
+    - "+.push.apple.com"
+
+# 入站
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+#使用nikki，混入全部不修改的情况，开启接口指定为nikki
+#device: nikki
+#使用仅内核自行修改下面三项为true
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  cache-algorithm: arc
+  listen: 0.0.0.0:1053
+  ipv6: true
+  respect-rules: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+    - "*"
+    - "+.lan"
+    - "+.local"
+    - "+.srv.nintendo.net"
+    - "+.stun.playstation.net"
+    - "+.playstation.net"
+    - "+.playstation.com"
+    - "+.sonyentertainmentnetwork.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - "+.xboxlive.com"
+    - "msftconnecttest.com"
+    - "xbox.*.microsoft.com"
+    - "*.battlenet.com.cn"
+    - "*.battlenet.com"
+    - "*.blzstatic.cn"
+    - "*.battle.net"
+  default-nameserver:
+    - https://223.5.5.5/dns-query
+    - https://223.6.6.6/dns-query
+  proxy-server-nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+proxy-groups:
+
+  - name: 默认
+    type: select
+#    include-all: true
+#    exclude-type: direct
+    proxies: [🇺🇸 洛杉矶CDN-Argo, 🇺🇸 洛杉矶CDN-xHTTP, 🇺🇸 洛杉矶CDN-WS, 🇺🇸 洛杉矶Reality-TCP, 🇺🇸 洛杉矶Reality-xHTTP, 🇺🇸 洛杉矶-233-HY2,直连]
+
+  - name: Google
+    type: select
+    proxies: [默认,直连]
+
+  - name: Telegram
+    type: select
+    proxies: [默认,直连]
+
+  - name: Twitter
+    type: select
+    proxies: [默认,直连]
+
+  - name: Apple
+    type: select
+    proxies: [直连,默认]
+
+  - name: Mircosoft
+    type: select
+    proxies: [直连,默认]
+
+  - name: Steam
+    type: select
+    proxies: [直连,默认]
+
+  - name: PlayStation
+    type: select
+    proxies: [直连,默认]
+    
+#  - name: 哔哩哔哩
+#    type: select
+#    include-all: true
+#    proxies: [默认]
+#
+#  - name: 巴哈姆特
+#    type: select
+#    include-all: true
+#    proxies: [默认]
+
+  - name: YouTube
+    type: select
+    proxies: [默认,直连]
+
+#  - name: NETFLIX
+#    type: select
+#    proxies: [默认,直连]
+
+#  - name: Spotify
+#    type: select
+#    proxies: [默认,直连]
+
+  - name: Github
+    type: select
+    proxies: [默认,直连]
+
+#  - name: 国内
+#    type: select
+#    include-all: true
+#    proxies:  []
+
+  - name: 其他
+    type: select
+    proxies: [默认,直连]
+
+  #分隔,下面是地区分组
+#  - name: 香港
+#    type: select
+#    include-all: true
+#    exclude-type: direct
+#    filter: "(?i)港|hk|hongkong|hong kong"
+#
+#  - name: 台湾
+#    type: select
+#    include-all: true
+#    exclude-type: direct
+#    filter: "(?i)台|tw|taiwan"
+#
+#  - name: 日本
+#    type: select
+#    include-all: true
+#    exclude-type: direct
+#    filter: "(?i)日|jp|japan"
+#
+#  - name: 美国
+#    type: select
+#    include-all: true
+#    exclude-type: direct
+#    filter: "(?i)美|us|unitedstates|united states"
+#
+#  - name: 新加坡
+#    type: select
+#    include-all: true
+#    exclude-type: direct
+#    filter: "(?i)(新|sg|singapore)"
+#
+#  - name: 其它地区
+#    type: select
+#    include-all: true
+#    exclude-type: direct
+#    filter: "(?i)^(?!.*(?:🇭🇰|🇯🇵|🇺🇸|🇸🇬|🇨🇳|港|hk|hongkong|台|tw|taiwan|日|jp|japan|新|sg|singapore|美|us|unitedstates)).*"
+
+#  - name: 全部节点
+#    type: select
+#    include-all: true
+#    exclude-type: direct
+
+#  - name: 自动选择
+#    type: url-test
+#    include-all: true
+#    exclude-type: direct
+#    tolerance: 10
+
+rules:
+  - RULE-SET,private_ip,直连,no-resolve
+  - RULE-SET,steam_cn,Steam
+  - RULE-SET,PlayStation,PlayStation
+  - RULE-SET,github_domain,Github
+  - RULE-SET,twitter_domain,Twitter
+  - RULE-SET,youtube_domain,YouTube
+  - RULE-SET,google_domain,Google
+  - RULE-SET,telegram_domain,Telegram
+#  - RULE-SET,netflix_domain,NETFLIX
+  - RULE-SET,apple_domain,Apple
+  - RULE-SET,microsoft_domain,Mircosoft
+#  - RULE-SET,bilibili_domain,哔哩哔哩
+#  - RULE-SET,bahamut_domain,巴哈姆特
+#  - RULE-SET,spotify_domain,Spotify
+  - RULE-SET,cn_domain,直连
+  - RULE-SET,geolocation-!cn,其他
+
+  - RULE-SET,google_ip,Google
+#  - RULE-SET,netflix_ip,NETFLIX
+  - RULE-SET,telegram_ip,Telegram
+  - RULE-SET,twitter_ip,Twitter
+  - RULE-SET,cn_ip,直连
+  - MATCH,其他
+
+rule-anchor:
+  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
+  domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
+  class: &class {type: http, interval: 86400, behavior: classical, format: text}
+rule-providers:
+  private_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"
+  cn_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"
+#  biliintl_domain:
+#    <<: *domain
+#    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/biliintl.mrs"
+  github_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"
+  twitter_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/twitter.mrs"
+  youtube_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"
+  google_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"
+  telegram_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"
+#  netflix_domain:
+#    <<: *domain
+#    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"
+#  bilibili_domain:
+#    <<: *domain
+#    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bilibili.mrs"
+#  bahamut_domain:
+#    <<: *domain
+#    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bahamut.mrs"
+#  spotify_domain:
+#    <<: *domain
+#    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/spotify.mrs"
+  geolocation-!cn:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"
+  steam_cn:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam@cn.mrs"
+  PlayStation:
+    <<: *class
+    url: "https://raw.githubusercontent.com/RaccoonCty/Clash-Rules/refs/heads/main/rules/PlayStation.list"
+  apple_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple.mrs"
+  microsoft_domain:
+    <<: *domain
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"
+
+
+  private_ip:
+    <<: *ip
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs"
+  cn_ip:
+    <<: *ip
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"
+  google_ip:
+    <<: *ip
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"
+#  netflix_ip:
+#    <<: *ip
+#    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"
+  twitter_ip:
+    <<: *ip
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/twitter.mrs"
+  telegram_ip:
+    <<: *ip
+    url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"
+
+  
